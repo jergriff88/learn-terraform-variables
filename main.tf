@@ -132,6 +132,6 @@ module "terraform-aws-s3-bucket-jmg" {
   source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-jmg/aws"
   version = "1.1.0"
 
-  bucket_name = jmg-bucket-1288
+  bucket_name = "jmg-bucket-1288"
   # insert required variables here
 }
